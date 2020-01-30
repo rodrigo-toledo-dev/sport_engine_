@@ -1,24 +1,21 @@
-# README
+# INSTALL INSTRUCTIONS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Firs of all you need have installed:
 
-Things you may want to cover:
+ * Docker and docker-compose
 
-* Ruby version
+ * rvm global
 
-* System dependencies
+ * config/database.yml ok
 
-* Configuration
+ * config/application with correct credentials
 
-* Database creation
+## FIRST COMMANDS
 
-* Database initialization
+To run the project you must up database and put up the ser using Docker
 
-* How to run the test suite
+```bundle```
 
-* Services (job queues, cache servers, search engines, etc.)
+```sudo docker-compose up --build```
 
-* Deployment instructions
-
-* ...
+After that access **http://localhost:3000**
