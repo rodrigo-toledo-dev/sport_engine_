@@ -16,6 +16,8 @@ To run the project you must up database and put up the ser using Docker
 
 ```bundle```
 
-```sudo docker-compose up --build```
+```docker-compose up --build```
+
+If this command don't run, try with ```sudo```
 
 After that access **http://localhost:3000**
